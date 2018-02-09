@@ -1,0 +1,45 @@
+.footer{
+	height: 132px;
+	padding: 36px 0px;
+}
+.footer-wrap{
+	width: 1152px;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer-links{
+	height: 28px;
+}
+.footer-links a{
+	padding-right: 15px;
+	color: #99a1a6;
+	font-size: 14px;
+	line-height: 28px;
+}
+.footer-wrap p{
+	color: #99a1a6;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.blog{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 60px;
+	width: 142px;
+}
+.hide{
+	display: none;
+}
+.teachers .touxiang-hover{
+	width: 60px;
+	height: 60px;
+	margin-left: -30px;
+}
+
+.footer-black{
+	background: #000;
+}
+.links-white a{
+	color: #fff;
+}
