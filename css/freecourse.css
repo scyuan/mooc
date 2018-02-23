@@ -31,6 +31,10 @@
 	border-radius: 3px;
 	margin-bottom: 8px;
 }
+.fangxiang-content .menu-select{
+	background: #2b333b;
+	color: #fff;
+}
 .fangxiang-content a:hover{
 	color: red;
 }
@@ -135,3 +139,4 @@
 	background: #4d555d;
 	color: #fff;
 }
+
