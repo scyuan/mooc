@@ -12,10 +12,119 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
 	<meta http-equiv="Expires" content="0" />
 	<link rel="stylesheet" type="text/css" href="css/common.css">
-	
+	<link rel="stylesheet" type="text/css" href="css/career.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
+<style>
+.menu .item a,.download,.shop-cart,.login a,.login{
+	color: #9ca0a4;
+}
+.menu .item a:hover{
+	color: #fff;
+}
+.search-area{
+	border-bottom: 1px solid #6a7076;
+}
+.search-input{
+	color: #fff;
+}
+</style>
 </head>
 <body>
+	<!-- header菜单栏 -->
+	<div class="header header-black">
+		<a class="home" href="#" title="慕课网">
+			<img src="img/logo_black.png" alt="">
+		</a>
+		<ul class="menu">
+			<li class="item"><a href="#">免费课程</a></li>
+			<li class="item"><a href="#">职业路径</a></li>
+			<li class="item"><a href="#">实战</a></li>
+			<li class="item"><a href="#">猿问</a></li>
+			<li class="item"><a href="#">手记</a></li>
+		</ul>
+		<div class="search-area">
+			<input class="search-input" type="text">
+			<div class="search-btn"><i class="icon icon-search">&#xe63d;</i></div>
+		</div>
+		<ul class="header-unlogin clearfix">
+			<li class="download">
+				<span>下载APP</span>
+				<div class="download-detail hide">
+					<img src="img/appload.png" height='100%' alt="">
+					<div class="load-wenzi">
+						<p class="title">扫描下载慕课网APP</p>
+						<p class="ios"><i class="icon">&#xe616;</i>App Store下载</p>
+						<p class="android"><i class="icon">&#xe640;</i>Android下载</p>
+					</div>
+				</div>
+			</li>
+			<li class="shop-cart">
+				<i class="icon icon-cart">&#xe61d;</i>
+				<span>购物车</span>
+				<div class="shop-cart-detail hide">
+					<p class="title"><span>我的购物车</span><span>已加入0门课程</span></p>
+					<div class="content">
+						<span><i class="icon">&#xe61d;</i></span>
+						<p>购物车空空如也</p>
+						<span></span>
+						<p>快去这里选购你中意的课程</p>
+						<a href="#">实战课程</a>
+						<a href="#">职业路径</a>
+					</div>
+					<p class="about-order"><a href="">我的订单中心</a><span>去购物车</span></p>
+				</div>
+			</li>
+			<li class="login">
+				<a href="#">登录</a>
+				/
+				<a href="#">注册</a>
+			</li>
+		</ul>
+	</div>
 
+	<!-- 头部标题栏 -->
+	<div class="program-banner">
+		<h3><img src="img/banner-txt.svg" alt=""></h3>
+		<h3><span>课程体系化</span>/<span>问答作业1V1</span>/<span>学练测一体</span>/<span>视频不期限</span>/<span>服务随开随用</span></h3>
+		<div class="banner-tab">
+			<a href="" class="banner-tab-select">全部</a>
+			<a href="">Web前端攻城狮</a>
+			<a href="">Java攻城狮</a>
+			<a href="">Android攻城狮</a>
+			<a href="">PHP攻城狮</a>
+			<a href="">iOS / C++攻城狮</a>
+		</div>
+	</div>
+
+	<!-- 课程内容 -->
+	<div class="content">
+		<div class="content-wrap">
+			<div class="course-box">
+				<div class="course-cover">
+					<div class="img-up" style="background-image: url(img/career1.jpg);"></div>
+					<div class="img-mid" style="background-image: url(img/career1.jpg);"></div>
+					<div class="img-down" style="background-image: url(img/career1.jpg);"></div>
+				</div>
+			</div>
+			<div class="course-box">
+				
+			</div>
+			<div class="course-box">
+				
+			</div>
+			<div class="course-box">
+				
+			</div>
+			<div class="course-box">
+				
+			</div>
+		</div>
+	</div>
 </body>
+<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+<script>
+	$('.course-box').on('mouseenter',function(){
+		
+	})
+</script>
 </html>
