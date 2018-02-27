@@ -308,4 +308,24 @@ a{
 .b{
 	border-bottom: 1px solid #d9dde1;
 }
-
+.pagenation{
+	height: 60px;
+	text-align: center;
+	color: #4d555d;
+}
+.pagenation span{
+	margin: 0px 5px;
+}
+.pagenation .num{
+	display: inline-block;
+	margin: 0 6px;
+	width: 36px;
+	height: 36px;
+	border-radius: 18px;
+	text-align: center;
+	line-height: 36px;
+}
+.page-select{
+	background: #4d555d;
+	color: #fff;
+}
