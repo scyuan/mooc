@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>慕课网-猿问</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- 兼容移动设备 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<!-- 让IE的文档渲染模式永远都是最新的 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+	<meta http-equiv="Expires" content="0" />
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/ask.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<style>
+.menu .item a,.download,.shop-cart,.login a,.login{
+	color: #9ca0a4;
+}
+.menu .item a:hover{
+	color: #fff;
+}
+.search-area{
+	border-bottom: 1px solid #6a7076;
+}
+.search-input{
+	color: #fff;
+}
+</style>
+</head>
+<body>
+	<!-- header菜单栏 -->
+	<div class="header header-black">
+		<a class="home" href="#" title="慕课网">
+			<img src="img/logo_black.png" alt="">
+		</a>
+		<ul class="menu">
+			<li class="item"><a href="#">免费课程</a></li>
+			<li class="item"><a href="#">职业路径</a></li>
+			<li class="item"><a href="#">实战</a></li>
+			<li class="item"><a href="#">猿问</a></li>
+			<li class="item"><a href="#">手记</a></li>
+		</ul>
+		<div class="search-area">
+			<input class="search-input" type="text">
+			<div class="search-btn"><i class="icon icon-search">&#xe63d;</i></div>
+		</div>
+		<ul class="header-unlogin clearfix">
+			<li class="download">
+				<span>下载APP</span>
+				<div class="download-detail hide">
+					<img src="img/appload.png" height='100%' alt="">
+					<div class="load-wenzi">
+						<p class="title">扫描下载慕课网APP</p>
+						<p class="ios"><i class="icon">&#xe616;</i>App Store下载</p>
+						<p class="android"><i class="icon">&#xe640;</i>Android下载</p>
+					</div>
+				</div>
+			</li>
+			<li class="shop-cart">
+				<i class="icon icon-cart">&#xe61d;</i>
+				<span>购物车</span>
+				<div class="shop-cart-detail hide">
+					<p class="title"><span>我的购物车</span><span>已加入0门课程</span></p>
+					<div class="content">
+						<span><i class="icon">&#xe61d;</i></span>
+						<p>购物车空空如也</p>
+						<span></span>
+						<p>快去这里选购你中意的课程</p>
+						<a href="#">实战课程</a>
+						<a href="#">职业路径</a>
+					</div>
+					<p class="about-order"><a href="">我的订单中心</a><span>去购物车</span></p>
+				</div>
+			</li>
+			<li class="login">
+				<a href="#">登录</a>
+				/
+				<a href="#">注册</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- 主要内容 -->
+	<div class="ask-content">
+		<div class="ask-wrap clearfix">
+			<div class="main-content">
+				<div class="ask-title">
+					<span class="ask-title-wenzi">程序员自己的问答社区</span>
+					<a href="" class="ask-submit">我要提问</a>
+				</div>
+
+				<!-- 问答大分类 -->
+				<div class="nav">
+					<a href="" class="nav-select">推荐</a>
+					<a href="">最新</a>
+					<a href="">等待回答</a>
+					<a href="">话题</a>
+				</div>
+				
+				<!-- 本期话题 -->
+				<div class="curr-topic">
+					<p class="curr"><span>本期话题</span><i class="icon">&#xe78b;</i></p>
+					<span>【花式填坑】第23期 运维进化篇：成为Python DevOps攻城狮...</span>
+				</div>
+				
+				<!-- 问答列表 -->
+				<div class="wenda">
+					<div class="wenda-header">
+						<img src="img/php.jpg" class="wenda-header-img" alt="">
+						<div class="wenda-header-content">
+							<p class="from">来自<span>PHP</span><span>Android</span><span>SQL Server</span></p>
+							<p class="ask-what">该不该入行?</p>
+						</div>
+					</div>
+					<div class="answers">
+						<div class="write-answer">
+							<a href="" class="write-answer-span">撰写答案</a>
+							<a href="">回答问题最高可或<span class="jifen">2积分</span>哦！</a>
+							<span>3个回答</span>
+							<a href="">关注</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="wenda">
+					<div class="wenda-header">
+						<img src="img/php.jpg" class="wenda-header-img" alt="">
+						<div class="wenda-header-content">
+							<p class="from">来自<span>JAVA</span></p>
+							<p class="ask-what">现在高一想要自学Java，但是英语特别差，诸位大神有没有什么建议?</p>
+						</div>
+					</div>
+					<div class="answers">
+						<div class="caina">
+							<p class="caina-title">
+								<span>已采纳</span>
+								<span>woszhang</span>
+								回答：
+							</p>
+							<p class="best-answer">首先, 不要担心英语问题会影响你自学Java(或其它任何语言). 学习编程的门槛并不是非常高. 基础语法需要的单词量非常少,几十个关键字而已,而且也不需要刻意的提前去背, 用得多了就记住了. 再就是API中的英语, 也是一样, 一边学一边用,就会了. 但是, 请不要因此就认为英语不会也没关系. 在未来更漫长的技术成长过程中, 英语会越发重要. 你需要看英文文档,英文视频, 甚至可能去一个外企和老外沟通.数学同理.学以致用是最快的学习方式, 没准学习编程的过程会让你对英语更加产生兴趣呢. 祝你的英语水平和编程水平能够互相辅助, 一起提高.<a class="best-more">[查看全部]</a></p>
+							<div class="best-desc">
+								<a class="agree" href="">赞同 1</a>
+								<a class="oppose" href="">反对</a>
+								<span class="share"><span>分享</span>
+									<a class="v-hide" href="" title="分享到微信"><i class="icon">&#xe66a;</i></a>
+									<a class="v-hide" href="" title="分享到新浪微博"><i class="icon">&#xe641;</i></a>
+									<a class="v-hide" href="" title="分享到QQ空间"><i class="icon">&#xe69e;</i></a>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-content"></div>
+		</div>
+	</div>
+</body>
+</html>

@@ -16,13 +16,12 @@ a{
 }
 @font-face {
   font-family: 'iconfont';  /* project id 478040 */
-  src: url('http://at.alicdn.com/t/font_478040_w9a85rwn7bfenrk9.eot');
-  src: url('http://at.alicdn.com/t/font_478040_w9a85rwn7bfenrk9.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_478040_w9a85rwn7bfenrk9.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_478040_w9a85rwn7bfenrk9.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_478040_w9a85rwn7bfenrk9.svg#iconfont') format('svg');
-}
-.icon{
+  src: url('http://at.alicdn.com/t/font_478040_imw8gkz7tit3xr.eot');
+  src: url('http://at.alicdn.com/t/font_478040_imw8gkz7tit3xr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_478040_imw8gkz7tit3xr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_478040_imw8gkz7tit3xr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_478040_imw8gkz7tit3xr.svg#iconfont') format('svg');
+}.icon{
 	font-family: 'iconfont';
 	font-style: normal;
 }
