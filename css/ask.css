@@ -1,9 +1,11 @@
 .ask-wrap{
 	width: 1152px;
 	margin:40px auto 0;
+	padding-bottom: 50px;
 }
 .main-content{
 	width: 776px;
+	float: left;
 }
 .right-content{
 	margin-left: 48px;
@@ -125,12 +127,12 @@
 	font-size: 13px;
 	color: #b5b9bc;
 }
-.caina-title span:nth-child(1){
+.caina-title span.flag{
 	color: #00b33b;
 	background: #e5f7eb;
 	padding: 5px;
 }
-.caina-title span:nth-child(2){
+.caina-title span.name{
 	color: #000;
 	font-weight: bold;
 }
@@ -178,4 +180,116 @@
 	font-size: 20px;
 	vertical-align: sub;
 	visibility: hidden;
+}
+.right-bg{
+	width: 100%;
+	height: auto;
+}
+.hot-question{
+	border-bottom: 1px solid #edf1f1;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.hot-question-title{
+	height: 36px;
+	border-bottom: 1px solid #d0d6d9;
+	margin-top: 20px;
+}
+.hot-question a{
+	color: #14191e;
+	font-size: 14px;
+}
+.hot-moreinfo{
+	height: 36px;
+	line-height: 36px;
+}
+.hot-moreinfo a{
+	color: #b5b9bc;
+	font-size: 12px;
+}
+.question-from{
+	float: right;
+}
+.question-guanzhu{
+	margin-left: 30px;
+}
+.hot-leifeng-title{
+	height: 40px;
+	border-bottom: 1px solid #d0d6d9;
+	margin-top: 30px;
+}
+.week,.today{
+	float: right;
+	font-size: 14px;
+	margin-left: 20px;
+	padding-bottom: 18px;
+}
+.hot-leifeng-title .select{
+	border-bottom: 2px solid #f01414;
+}
+.leifeng{
+	height: 40px;
+	margin-top: 30px;
+}
+.leifeng>span:nth-child(1){
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 19px;
+	font-weight: bold;
+	color: #b5c0d4;
+}
+.leifeng>span.first{
+	color: #f8b551;
+}
+.leifeng >span.second{
+	color: #787d82;
+}
+.leifeng >span.third{
+	color: #ef6941;
+}
+.leifeng-wenzi{
+	width: 248px;
+	color: #b5b9bc;
+	font-size: 12px;
+	padding-left: 10px;
+}
+.leifeng-avator{
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}
+.leifeng span,.leifeng img,.leifeng div{
+	float: left;
+}
+.leifeng-name{
+	color: #787d92;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 23px;
+}
+.leifeng-name:hover{
+	color: #333;
+}
+.leifeng-wenzi span.leifeng-count{
+	float: right;
+}
+.leifeng-wrap{
+	border-bottom: 1px solid #edf1f2;
+}
+.showmore-leifeng{
+	height: 30px;
+	color: #b5b9bc;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	font-size: 14px;
+	margin: 30px 0px;
+}
+.showmore-leifeng:hover{
+	background: #f3f5f7;
+	border: 1px solid #d9dde1;
+	line-height: 28px;	
 }
