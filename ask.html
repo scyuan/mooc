@@ -18,6 +18,9 @@
 .menu .item a,.download,.shop-cart,.login a,.login{
 	color: #9ca0a4;
 }
+.menu .item a.menu-item-select{
+	color: #fff;
+}
 .menu .item a:hover{
 	color: #fff;
 }
@@ -32,15 +35,15 @@
 <body>
 	<!-- header菜单栏 -->
 	<div class="header header-black">
-		<a class="home" href="#" title="慕课网">
+		<a class="home" href="index.html" title="慕课网">
 			<img src="img/logo_black.png" alt="">
 		</a>
 		<ul class="menu">
-			<li class="item"><a href="#">免费课程</a></li>
-			<li class="item"><a href="#">职业路径</a></li>
-			<li class="item"><a href="#">实战</a></li>
-			<li class="item"><a href="#">猿问</a></li>
-			<li class="item"><a href="#">手记</a></li>
+			<li class="item"><a href="freecourse.html">免费课程</a></li>
+			<li class="item"><a href="careerpath.html">职业路径</a></li>
+			<li class="item"><a href="shizhan.html">实战</a></li>
+			<li class="item"><a href="ask.html" class="menu-item-select">猿问</a></li>
+			<li class="item"><a href="discovery.html">发现</a></li>
 		</ul>
 		<div class="search-area">
 			<input class="search-input" type="text">
@@ -48,8 +51,8 @@
 		</div>
 		<ul class="header-unlogin clearfix">
 			<li class="download">
-				<span>下载APP</span>
-				<div class="download-detail hide">
+				<a href="#">下载APP</a>
+				<div class="download-detail">
 					<img src="img/appload.png" height='100%' alt="">
 					<div class="load-wenzi">
 						<p class="title">扫描下载慕课网APP</p>
@@ -59,20 +62,22 @@
 				</div>
 			</li>
 			<li class="shop-cart">
-				<i class="icon icon-cart">&#xe61d;</i>
-				<span>购物车</span>
-				<div class="shop-cart-detail hide">
-					<p class="title"><span>我的购物车</span><span>已加入0门课程</span></p>
-					<div class="content">
-						<span><i class="icon">&#xe61d;</i></span>
-						<p>购物车空空如也</p>
-						<span></span>
-						<p>快去这里选购你中意的课程</p>
-						<a href="#">实战课程</a>
-						<a href="#">职业路径</a>
+				<a href="#" class="dark">
+					<i class="icon icon-cart">&#xe61d;</i>
+					<span>购物车</span>
+					<div class="shop-cart-detail">
+						<p class="title"><object><a href="#" class="to-my-cart">我的购物车</a></object><span class="already">已加入0门课程</span></p>
+						<div class="content">
+							<span><i class="icon">&#xe61d;</i></span>
+							<p>购物车空空如也</p>
+							<span></span>
+							<p>快去这里选购你中意的课程</p>
+							<object><a href="#">实战课程</a></object>
+							<object><a href="#">职业路径</a></object>
+						</div>
+						<p class="about-order"><object><a href="">我的订单中心</a></object><span>去购物车</span></p>
 					</div>
-					<p class="about-order"><a href="">我的订单中心</a><span>去购物车</span></p>
-				</div>
+				</a>
 			</li>
 			<li class="login">
 				<a href="#">登录</a>

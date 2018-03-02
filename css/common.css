@@ -109,7 +109,12 @@ a{
 }
 .download{
 	padding: 0 10px;
-	color: #4E555C;
+}
+.download a{
+	color: #9ca0a4;
+}
+.download a:hover{
+	color: #f01414;
 }
 .shop-cart{
 	height: 36px;
@@ -117,12 +122,21 @@ a{
 	line-height: 36px;
 	text-align: center;
 	font-size: 14px;
-	color: #4E555C;
-	border-radius: 18px;
-	border: 1px solid #d9dde1;
 	margin: 18px 10px 0px 10px;
 }
-
+.shop-cart>a{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	color: #9ca0a4;
+	border-radius: 18px;
+	border: 1px solid #394249;
+}
+.shop-cart>a.dark:hover{
+	color: #fff;
+	background: #202932;
+	border: 1px solid #7a7f84;
+}
 .login a{
 	margin: 0 10px;
 }
@@ -142,6 +156,10 @@ a{
 	width: 295px;
 	height: 140px;
 	padding: 20px;
+	visibility: hidden;
+}
+.download:hover .download-detail{
+	visibility: visible;
 }
 .download-detail,.shop-cart-detail{
 	position: absolute;
@@ -181,9 +199,13 @@ a{
 	display: none;
 }
 .shop-cart-detail{
+	visibility: hidden;
 	width: 330px;
-	top: 53px;
+	top: 54px;
 	padding: 10px;
+}
+.shop-cart a:hover .shop-cart-detail{
+	visibility: visible;
 }
 .shop-cart-detail .title{
 	padding: 0 10px;
@@ -191,19 +213,23 @@ a{
 	line-height: 50px;
 	border-bottom: 1px solid #ddd;
 }
-.shop-cart-detail .title span:nth-child(1){
+.to-my-cart{
 	float: left;
+	color: #000;
 }
-.shop-cart-detail .title span:nth-child(2){
-	font-size: 12px;
-	font-weight: 300;
-	color: #999;
+.already{
 	float: right;
+	font-size: 12px;
+	color: #999;
+	font-weight: 300;
 }
 .shop-cart-detail .content{
 	border-bottom: 1px solid #ddd;
 	text-align: center;
 	padding: 40px 0;
+}
+.shop-cart-detail .content p{
+	color: #ccc;
 }
 .shop-cart-detail .content span:nth-child(1){
 	display: inline-block;

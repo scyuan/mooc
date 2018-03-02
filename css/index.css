@@ -236,10 +236,18 @@ h3 em{
 	margin-left: 24px;
 }
 .i-skill-l{
-	background-position: 0px -288px;
+	background-position: 0px -216px;
 	margin-right: 24px;
 }
 .i-skill-r{
+	background-position: 0px -252px;
+	margin-left: 24px;
+}
+.i-tech-l{
+	background-position: 0px -288px;
+	margin-right: 24px;
+}
+.i-tech-r{
 	background-position: 0px -324px;
 	margin-left: 24px;
 }
@@ -725,4 +733,18 @@ h3 em{
 	height: 60px;
 	margin-left: -30px;
 }
-
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom: 16px;
+	left: 730px;
+	width: 200px;
+}
+.swiper-pagination-white .swiper-pagination-bullet{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #ccc;
+	background: #000;
+	opacity: 0.8;
+}
+.swiper-pagination-white .swiper-pagination-bullet-active{
+	background: #fff;
+}
